@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: 'Montserrat';
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+#main-nav {
+    width: 100vw;
+    min-height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 84, 117, 0.829);
+    z-index: 10;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#name {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Syncopate', sans-serif;
+    color: whitesmoke;
+}
+
+#menu {
+    flex-shrink: 10;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    list-style: none;
+    background: transparent;
+}
+
+#menu a {
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 40px;
+    color: whitesmoke;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    filter: brightness(80%);
+}
+
+/* SECTIONS */
+
+section {
+    min-height: 85vh;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#presentation {
+    min-height: 120vh;
+    background-color: transparent;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#presentation > h1 {
+    font-weight: 1500;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: .5rem;
+    margin: 35vh 0 5vh 0;
+}
+
+#presentation > a {
+    font-size: 3rem;
+    height: auto;
+    color: whitesmoke;
+}
+
+/* FOOTER */
+
+footer {
+    min-height: 15vh;
+}
+
+/* LOADER WRAPPER */
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(13, 49, 102);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sk-folding-cube {
+    width: 3em;
+    height: 3em;
+    position: relative;
+    transform: rotateZ(45deg);
+}
+  
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transform: scale(1.1); 
+}
+
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    transform-origin: 100% 100%;
+}
+
+.sk-folding-cube .sk-cube2 {
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.sk-folding-cube .sk-cube3 {
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.sk-folding-cube .sk-cube4 {
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.sk-folding-cube .sk-cube2:before {
+    animation-delay: 0.3s;
+}
+
+.sk-folding-cube .sk-cube3:before {
+    animation-delay: 0.6s; 
+}
+
+.sk-folding-cube .sk-cube4:before {
+    animation-delay: 0.9s;
+}
+
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0; 
+    } 25%, 75% {
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1; 
+    } 90%, 100% {
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0; 
+    }
+}
