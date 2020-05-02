@@ -38,10 +38,9 @@
         <li><a class="js-scroll-trigger"  href="#contact">Contact</a></li>
       </ul>
     </nav>
-
-    <video role="presentation" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="img/bg.mp4" type="video/mp4" />
-    </video>
+    
+    <!--https://player.vimeo.com/video/301525727?background=1&quality=1080p-->
+    <video role="presentation" src="img/bg.mp4" loop muted autoplay frameborder="0" allow="autoplay; fullscreen" allowfullscreen></video>
 
     <section id="presentation">
       <h1>
@@ -55,19 +54,19 @@
 
   <main>
     <section id="services">
-      <h1>Services</h1>
+      <h1>services</h1>
     </section>
 
     <section id="about">
-      <h1>About</h1>
+      <h1>about</h1>
     </section>
   
     <section id="projects">
-      <h1>Projects</h1>
+      <h1>projects</h1>
     </section>
   
     <section id="contact">
-      <h1>Contact</h1>
+      <h1>contact</h1>
     </section>
   </main>
 
@@ -84,7 +83,9 @@
   <!-- Loader fade out when the window is loaded -->
   <script>
     $(window).on("load", function(){
+
         $(".loader-wrapper").fadeOut("slow");
+        $("body").css("overflow", "auto");
     });
 </script>
 </body>
