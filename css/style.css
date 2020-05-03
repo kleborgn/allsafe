@@ -139,6 +139,7 @@ section h1 {
     background-color: rgb(247, 247, 247);
     width: 20em;
     height: auto;
+    margin-bottom: 4em;
 }
 
 .text-container {
@@ -152,10 +153,6 @@ section h1 {
 
 #services img {
     width: 100%;
-}
-
-#services article {
-    margin-bottom: 4em;
 }
 
 /* ABOUT US */
@@ -227,7 +224,23 @@ main > aside h3 {
 
 /* PROJECTS */
 
+#projects article {
+    width: 25em;
+    height: auto;
+    margin-bottom: 4em;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background-color: white;
+}
 
+#projects img {
+    width: 100%;
+}
+
+#projects article:hover {
+    opacity: 0.3;
+}
 
 /* CLIENTS */
 
