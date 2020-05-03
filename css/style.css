@@ -67,10 +67,22 @@ video {
 
 /* SECTIONS */
 
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
 section {
     min-height: 100vh;
     background-color: white;
-    text-align: center;
+}
+
+section p {
+    color: black;
+    font-size: 0.9em;
 }
 
 section > h1 {
@@ -106,7 +118,7 @@ section > h1 {
 }
 
 #services > h1 {
-    padding-top: 0.3em;
+    padding-top: 0.4em;
     line-height: 1.7em;
 }
 
@@ -116,10 +128,30 @@ section > h1 {
     margin: auto;
 }
 
-#services > article {
-    background-color: rgb(148, 148, 148);
-    width: 5em;
-    height: 5em;
+.article-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 4em;
+}
+
+#services article {
+    background-color: rgb(247, 247, 247);
+    width: 20vw;
+    height: auto;
+}
+
+.text-container {
+    padding: 0 1.5em 1.5em 1.5em;
+}
+
+#services h2 {
+    color: rgb(0, 85, 115);
+    padding: 0.2em 0 0.4em 0;
+}
+
+#services img {
+    width: 100%;
 }
 
 /* FOOTER */
