@@ -94,8 +94,10 @@ section > h1 {
     margin: 0;
 }
 
+/* PRESENTATION */
+
 #presentation {
-    min-height: 135vh;
+    min-height: 140vh;
     background-color: transparent;
     text-align: center;
 }
@@ -117,8 +119,10 @@ section > h1 {
     color: white;
 }
 
+/* SERVICES */
+
 #services > h1 {
-    padding-top: 0.4em;
+    padding-top: 0.5em;
     line-height: 1.7em;
 }
 
@@ -137,7 +141,7 @@ section > h1 {
 
 #services article {
     background-color: rgb(247, 247, 247);
-    width: 20vw;
+    width: 20em;
     height: auto;
 }
 
@@ -152,6 +156,20 @@ section > h1 {
 
 #services img {
     width: 100%;
+}
+
+#services article {
+    margin-bottom: 4em;
+}
+
+/* ABOUT US */
+
+#code-parallax {
+    background-image: url(img/code.jpg) center 0 no-repeat fixed;
+}
+
+#about {
+    background-color: rgb(247, 247, 247);;
 }
 
 /* FOOTER */
