@@ -5,3 +5,4 @@ AllSafe est un site web pour une entreprise fictive de cybersécurité, dévelop
 
 ## Documentation 📚
 - [Any way to limit border length?](https://stackoverflow.com/questions/4131490/any-way-to-limit-border-length/42157360)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
