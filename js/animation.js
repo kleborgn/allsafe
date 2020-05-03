@@ -17,9 +17,4 @@ $(document).ready(function(){
             .stop() // on arrête toutes les animations en cours 
             .animate({scrollTop: $(target).offset().top}, 1000); // on fait maintenant l'animation vers le haut (scrollTop) vers notre ancre target
     });
-
-    /**
-     * Parallax
-     */
-    $('#code-parallax').parallax("center", 0, 0.1, true);
 });

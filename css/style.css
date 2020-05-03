@@ -103,7 +103,7 @@ section h1 {
     text-align: center;
 }
 
-#presentation > h1 {
+#presentation h1 {
     font-family: 'Montserrat';
     font-variant: normal;
     color: white;
@@ -114,7 +114,7 @@ section h1 {
     padding: 35vh 0 0 0;
 }
 
-#presentation > a {
+#presentation a {
     font-size: 3em;
     height: auto;
     color: white;
@@ -122,7 +122,7 @@ section h1 {
 
 /* SERVICES */
 
-#services > h1 {
+#services h1 {
     padding-top: 0.5em;
     line-height: 1.7em;
 }
@@ -168,10 +168,11 @@ section h1 {
 #about {
     display: flex;
     flex-flow: row nowrap;
+    padding-bottom: 0;
 }
 
 #code-parallax {
-    background: url(../img/code.jpg) center 0 fixed;
+    background: url(../img/code.jpg) fixed;
     background-size: contain;
     width: 100%;
     height: auto;
@@ -194,6 +195,45 @@ section h1 {
     padding-top: 3em;
     font-size: 1.1em;
     letter-spacing: 0.02em;
+}
+
+/* ASIDE */
+
+main > aside {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 115, 105);
+    color: white;
+    font-size: 2.2em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+main > aside div {
+    margin: 1em 0 1em 0;
+    width: 5em;
+}
+
+main > aside h1 {
+    margin: 0;
+}
+
+main > aside h3 {
+    color: rgb(255, 138, 147);
+    font-size: 0.6em;
+}
+
+/* PROJECTS */
+
+#projects {
+    text-align: center;
+}
+
+#projects h1 {
+    padding-top: 0.5em;
+    line-height: 1.7em;
 }
 
 /* FOOTER */
