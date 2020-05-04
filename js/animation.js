@@ -17,4 +17,15 @@ $(document).ready(function(){
             .stop() // on arrête toutes les animations en cours 
             .animate({scrollTop: $(target).offset().top}, 1000); // on fait maintenant l'animation vers le haut (scrollTop) vers notre ancre target
     });
+
+    /**
+     * Hamburger Navbar
+     */
+    let burger = document.getElementById('burger'),
+    nav    = document.getElementById('main-nav');
+
+    burger.addEventListener('click', function(e){
+        nav.classList.toggle('is-open');
+        $('body > nav').removeAttr('style');
+    });
 });

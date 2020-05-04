@@ -56,6 +56,22 @@ a {
     color: white;
 }
 
+/* HAMBURGER NAV */
+
+#burger {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#burger .line {
+    stroke: white;
+}
+
+.ham {
+    display: none;
+}
+
 video {
     width: 100vw;
     min-height: 100vh;
@@ -365,5 +381,122 @@ footer > h1 {
     } 90%, 100% {
         transform: perspective(140px) rotateY(180deg);
         opacity: 0; 
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 786px) {
+    
+    /* Flippin' burger */
+
+    .ham {
+        display: block;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .hamRotate.active {
+        transform: rotate(45deg);
+    }
+
+    .hamRotate180.active {
+        transform: rotate(180deg);
+    }
+
+    .line {
+        fill:none;
+        transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+        stroke: white;
+        stroke-width:5.5;
+        stroke-linecap:round;
+    }
+
+    .ham6 .top {
+        stroke-dasharray: 40 172;
+    }
+
+    .ham6 .middle {
+        stroke-dasharray: 40 111;
+    }
+
+    .ham6 .bottom {
+        stroke-dasharray: 40 172;
+    }
+
+    .ham6.active .top {
+        stroke-dashoffset: -132px;
+    }
+
+    .ham6.active .middle {
+        stroke-dashoffset: -71px;
+    }
+
+    .ham6.active .bottom {
+        stroke-dashoffset: -132px;
+    }
+
+    /* NAVBAR */
+
+    #main-nav {
+        height: 75px;
+    }
+
+    #main-nav #name {
+        margin: auto;
+    }
+
+    #main-nav #menu {
+        display: none;
+    }
+
+    #main-nav svg {
+        width: 75px;
+    }
+
+    #main-nav.is-open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw; height: 100vh;
+        background-color: white;
+    }
+
+    #main-nav.is-open #name {
+        color: rgb(13, 49, 102);
+        position: fixed;
+        top: 20px;
+    }
+
+    #main-nav.is-open #menu {
+        height: 60vh;
+        margin: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #main-nav.is-open ul a {
+        color: rgb(13, 49, 102);
+    }
+
+    #main-nav.is-open ul a {
+        font-size: 2em;
+    }
+
+    #main-nav.is-open #burger .line {
+        stroke: rgb(13, 49, 102);
+    }
+
+    /* PRESENTATION */
+
+    #presentation h1 {
+        font-size: 3.5em;
     }
 }

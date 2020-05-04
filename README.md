@@ -8,3 +8,7 @@ AllSafe est un site web pour une entreprise fictive de cybersécurité, dévelop
 - [Any way to limit border length?](https://stackoverflow.com/questions/4131490/any-way-to-limit-border-length/42157360)
 - [Fit background image to div](https://stackoverflow.com/questions/8200204/fit-background-image-to-div)
 - [Image Hover](https://jsfiddle.net/51csqs0b/)
+- [Flippin' burgers](https://codepen.io/ainalem/pen/LJYRxz)
+- [SpinKit | CSS Spinners](https://tobiasahlin.com/spinkit/)
+- [SVG wrapper](http://cssdeck.com/labs/viv1zlml)
+- [Icons | fontawesome](https://fontawesome.com/)
