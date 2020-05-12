@@ -372,9 +372,14 @@ main > aside h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#write-us form > * {
+#write-us form div > * {
     margin-bottom: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 40, 58);;
+    width: 100% - 24px;
+}
+
+#write-us form > *:hover {
+    border-width: 2px;
 }
 
 #name, #mail, #phone {
