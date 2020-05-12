@@ -137,7 +137,7 @@ section h1 {
     line-height: 1.7em;
 }
 
-.borderBottom {
+.border-bottom {
     border-bottom: 0.18em solid rgb(0, 115, 105);
     width: 2em;
     margin: auto;
@@ -201,7 +201,7 @@ section h1 {
     padding-bottom: 0.5em;
 }
 
-#about .borderBottom {
+#about .border-bottom {
     margin: 0;
 }
 
@@ -353,6 +353,10 @@ main > aside h3 {
     position: absolute;
     /* The max width of the info window. */
     width: 200px;
+}
+
+#contact h2 {
+    color: rgb(0, 85, 115);
 }
 
 /* FOOTER */

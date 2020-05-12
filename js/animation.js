@@ -49,7 +49,7 @@ function initMap() {
 
     Popup = createPopupClass();
     popup = new Popup(
-        new google.maps.LatLng(40.750341, -73.974356),
+        new google.maps.LatLng(allsafe),
         document.getElementById('content')
     );
     popup.setMap(map);
