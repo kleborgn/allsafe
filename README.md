@@ -12,3 +12,5 @@ AllSafe est un site web pour une entreprise fictive de cybersécurité, dévelop
 - [SpinKit | CSS Spinners](https://tobiasahlin.com/spinkit/)
 - [SVG wrapper](http://cssdeck.com/labs/viv1zlml)
 - [Icons | fontawesome](https://fontawesome.com/)
+- [Adding a Google Map with a Marker to Your Website](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+- [Custom Popups](https://developers.google.com/maps/documentation/javascript/examples/overlay-popup?hl=FR)
