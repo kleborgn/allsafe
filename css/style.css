@@ -359,6 +359,12 @@ main > aside h3 {
     color: rgb(0, 85, 115);
 }
 
+#contact .article-container {
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+
 /* FOOTER */
 
 footer {
@@ -370,7 +376,7 @@ footer {
 footer > h1 {
     font-size: 1.5em;
     font-weight: 500;
-    padding-top: 1.5em;
+    padding-top: 1.75em;
     margin: 0;
 }
 
