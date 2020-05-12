@@ -31,7 +31,7 @@ a {
     justify-content: space-around;
 }
 
-#name {
+#title {
     font-size: 2em;
     font-weight: 700;
     font-family: 'Syncopate', sans-serif;
@@ -73,8 +73,7 @@ a {
 }
 
 video {
-    width: 100vw;
-    min-height: 100vh;
+    object-fit: contain;
     position: fixed;
     top: 0;
     z-index: -1;
@@ -357,12 +356,35 @@ main > aside h3 {
 
 #contact h2 {
     color: rgb(0, 85, 115);
+    padding-top: 1.5em;
 }
 
 #contact .article-container {
+    padding-top: 0;
     width: 65%;
     margin: auto;
     justify-content: space-between;
+}
+
+#write-us form {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#write-us form > * {
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+#name, #mail, #phone {
+    padding-left: 24px;
+}
+
+#msg {
+    padding-left: 24px;
+    padding-right: 10px;
+    padding: 10px 10px 0 24px;
 }
 
 /* FOOTER */
@@ -522,7 +544,7 @@ footer > h1 {
         height: 75px;
     }
 
-    #main-nav #name {
+    #main-nav #title {
         margin: auto;
     }
 
@@ -542,7 +564,7 @@ footer > h1 {
         background-color: white;
     }
 
-    #main-nav.is-open #name {
+    #main-nav.is-open #title {
         color: rgb(13, 49, 102);
         position: fixed;
         top: 20px;
@@ -572,6 +594,25 @@ footer > h1 {
     /* PRESENTATION */
 
     #presentation h1 {
-        font-size: 3.5em;
+        font-size: 2.5em;
+    }
+
+    /* ABOUT US */
+
+    #about .text-container {
+        width: 100%;
+        padding: 1em 4em;
+    }
+
+    #about h1 {
+        text-align: center;
+    }
+
+    #about .border-bottom {
+        margin: auto;
+    }
+
+    #about #code-parallax {
+        display: none;
     }
 }

@@ -1,4 +1,4 @@
-# AllSafe cybersecurity 🔐
+# Allsafe Cybersecurity 🔐
 AllSafe est un site web pour une entreprise fictive de cybersécurité, développé en collaboration avec [Killian Monnier](https://github.com/paraceltus/).
 
 ![website preview](img/preview.png?raw=true)
@@ -14,3 +14,4 @@ AllSafe est un site web pour une entreprise fictive de cybersécurité, dévelop
 - [Icons | fontawesome](https://fontawesome.com/)
 - [Adding a Google Map with a Marker to Your Website](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
 - [Custom Popups](https://developers.google.com/maps/documentation/javascript/examples/overlay-popup?hl=FR)
+- [Mon premier formulaire HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Mon_premier_formulaire_HTML)
