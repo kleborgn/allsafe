@@ -372,24 +372,24 @@ main > aside h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#write-us form div > * {
-    margin-bottom: 5px;
-    border: 1px solid rgb(0, 40, 58);;
-    width: 100% - 24px;
-}
-
-#write-us form > *:hover {
+#write-us form div > *:hover {
     border-width: 2px;
 }
 
+#write-us form div > * {
+    margin-bottom: 5px;
+    border: 1px solid rgb(0, 40, 58);;
+    width: 85%;
+}
+
 #name, #mail, #phone {
-    padding-left: 24px;
+    padding: 5px 10px 5px 24px;
 }
 
 #msg {
-    padding-left: 24px;
-    padding-right: 10px;
     padding: 10px 10px 0 24px;
+    min-height: 15vh;
+    resize: none;
 }
 
 /* FOOTER */
