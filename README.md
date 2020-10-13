@@ -15,3 +15,4 @@ AllSafe est un site web pour une entreprise fictive de cybersécurité, dévelop
 - [Adding a Google Map with a Marker to Your Website](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
 - [Custom Popups](https://developers.google.com/maps/documentation/javascript/examples/overlay-popup?hl=FR)
 - [Mon premier formulaire HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Mon_premier_formulaire_HTML)
+- ["Inspiration"](https://fr.wix.com/website-template/view/html/1734)
