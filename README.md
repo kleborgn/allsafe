@@ -1,7 +1,7 @@
 # Allsafe Cybersecurity 🔐
 AllSafe est un site web pour une entreprise fictive de cybersécurité, développé en collaboration avec [Killian Monnier](https://github.com/mauxnier).
 
-![website preview](img/preview.png?raw=true)
+![website preview](img/preview.png)
 
 ## Documentation 📚
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
